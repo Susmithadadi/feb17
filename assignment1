@@ -1,0 +1,15 @@
+evensum=oddsum=0
+n=int(input('enter number of elements'))
+for i in range(1,n+1):
+    if i%2==1:
+      evensum=evensum+i
+    else:
+      oddsum=oddsum+i
+print('sum of even numbers=',evensum)
+print('sum of odd numbers=',oddsum)
+         
+ enter number of elements
+30
+sum of even numbers= 225
+sum of odd numbers= 240
+                
